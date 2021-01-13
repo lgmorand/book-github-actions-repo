@@ -1,0 +1,26 @@
+{
+  "name": "simple-demo",
+  "version": "0.0.1",
+  "description": "A simple PUG/SaaS demo webpage",
+  "main": "gulpfile.babel.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp4-run-sequence": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgmorand/book-github-actions-repo.git"
+  },
+  "author": "Louis-Guillaume MORAND",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgmorand/book-github-actions-repo/issues"
+  },
+  "homepage": "https://github.com/lgmorand/book-github-actions-repo#readme"
+}
