@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: exo2-jobs
 
 # Controls when the action will run. 
 on:
@@ -18,7 +18,8 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - run: echo job fake command causing failure
+      - run: echo job1
+      - run: fake command causing failure
   job2:
     runs-on: ubuntu-latest
     needs: [job1]
