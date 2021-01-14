@@ -1,12 +1,10 @@
 name: "Exercice XXXXXXXXXXXXXX"
 on:
-  push:
-    paths:                 # sur les fichiers
-      - '**.yml'           # qui ont l'extension 'yml'
-      - '!**/test/**.yml'  # sauf ceux qui ont un dossier parent nommé 'test'
+  workflow_dispatch:
 
 jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "je vérifie les fichiers YAML"
+    - run: Write-Host "Coucou"
+      shell: pwsh
