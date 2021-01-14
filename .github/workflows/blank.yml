@@ -2,7 +2,7 @@ name: "Exercice XXXXXXXXXXXXXX"
 on:
   pull_request:
     paths:                 # sur les fichiers
-      - '**.yml'           # qui ont l'extension 'yml'
+      - '*.yml'           # qui ont l'extension 'yml'
       - '!**/test/**.yml'  # sauf ceux qui ont un dossier parent nommé 'test'
 
 jobs:
