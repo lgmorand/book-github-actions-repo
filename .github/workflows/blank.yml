@@ -1,6 +1,6 @@
 name: "Exercice XXXXXXXXXXXXXX"
 on:
-  pull_request:
+  push:
     paths:                 # sur les fichiers
       - '*.yml'           # qui ont l'extension 'yml'
       - '!**/test/**.yml'  # sauf ceux qui ont un dossier parent nommé 'test'
