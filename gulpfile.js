@@ -1,4 +1,4 @@
-var gulp = require("gulp"), pug = require('gulp-pug'), runSequence = require('gulp4-run-sequence');;
+var gulp = require("gulp"), pug = require('gulp-pug-3'), runSequence = require('gulp4-run-sequence');;
 
 gulp.task('pugToHtml', () => {
    return gulp.src('src/*.pug')
