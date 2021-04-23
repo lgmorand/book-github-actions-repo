@@ -1,4 +1,4 @@
-name: Compilation
+name: My first workflow
 
 on:
   push:
