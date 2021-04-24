@@ -1,4 +1,4 @@
-# Sample repository
+# Sample repository 
 
 This repository is just a sample repository to learn on how to use Github Actions
 
