@@ -11,7 +11,7 @@ on:
     message:
       required: true
     use-emoji:
-      type boolean
+      type: boolean
       description: Include emojis
     environment:
       type: environment
