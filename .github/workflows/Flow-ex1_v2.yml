@@ -2,7 +2,7 @@ name: 'triggers - Exercice 1_v2 '
 on:
   push:
   schedule:
-  - cron: '30 19 * * 1-5'
+  - cron: '17 18 * 1-5'
   
 jobs:
   stale:
