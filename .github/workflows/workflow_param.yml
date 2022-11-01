@@ -11,7 +11,7 @@ on:
         required: true
     jobs:
       my-job:
-      runs-on: ubuntu-latest
-      steps:
-        - run:echo "${{ github.event.inputs.myParam }} ${{ github.event.inputs.myParam2 }}"
+        runs-on: ubuntu-latest
+        steps:
+          - run:echo "${{ github.event.inputs.myParam }} ${{ github.event.inputs.myParam2 }}"
       
