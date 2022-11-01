@@ -1,4 +1,4 @@
-name: "triggers - exercice 1"
+name: "triggers - Exercice 1"
 on:
   schedule:
   - cron: "30 19 * * 1-5"
