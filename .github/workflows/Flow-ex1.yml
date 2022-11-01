@@ -1,11 +1,7 @@
 name: "triggers - exercice 1"
 on:
   schedule:
-  - cron: "30 19 * * 1"
-  - cron: "30 19 * * 2"
-  - cron: "30 19 * * 3"
-  - cron: "30 19 * * 4"
-  - cron: "30 19 * * 5"
+  - cron: "30 19 * * 1-5"
 jobs:
   stale:
     runs-on:ubuntu-latest
