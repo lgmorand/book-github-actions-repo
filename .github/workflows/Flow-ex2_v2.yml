@@ -1,8 +1,7 @@
 name: 'triggers - exercice 2'
 on:
  push:
- pull-request:
- - branch: main
+ pull_request: 
 jobs:
  stale:
   runs-on: ubuntu-latest
