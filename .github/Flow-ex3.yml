@@ -2,7 +2,7 @@ name: 'Triggers - exercice 3'
 on:
  pull_request:
   paths:
-  - '*.yml'
+  - '**.yml'
 jobs:
  stale:
   runs-on: ubuntu-latest
