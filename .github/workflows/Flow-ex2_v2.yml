@@ -1,4 +1,4 @@
-name: "triggers - exercice 2"
+name: 'triggers - exercice 2'
 on:
  push:
  pull-request:
