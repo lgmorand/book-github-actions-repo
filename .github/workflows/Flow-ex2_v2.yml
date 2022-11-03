@@ -6,4 +6,4 @@ jobs:
  stale:
   runs-on: ubuntu-latest
   steps:
-  - run: echo "je vérifie que tout marche bien"
+  - run: echo "je vérifie  que tout marche bien"
