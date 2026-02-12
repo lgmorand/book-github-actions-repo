@@ -13,4 +13,4 @@ jobs:
           fetch-depth: 0
       - uses: maidsafe/pr_size_checker@v3
         with:
-          max_lines_changed: 10
+          max_lines_changed: 5
