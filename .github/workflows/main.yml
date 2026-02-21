@@ -1,0 +1,27 @@
+name: My first workflow # le nom de mon choix
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: use Node.js
+      uses: action/setup-node@v4
+
+    - runs: npm install
+
+    - runs: gulp build
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: MyPackage
+        path: dest
+         
