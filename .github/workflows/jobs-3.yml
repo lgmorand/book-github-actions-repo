@@ -12,4 +12,4 @@ jobs:
   job2:
    runs-on: ubuntu-latest
    steps:
-   - run: cat test.xt # lit le contenu de test.txt et l'afiche dans la console
+   - run: cat test.txt # lit le contenu de test.txt et l'afiche dans la console
