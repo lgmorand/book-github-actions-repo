@@ -7,7 +7,7 @@ on:
         required: true
         default: 'hello'
       myParam2:
-        description: 'my second param"
+        description: 'my second param'
         required: true
 
 jobs:
