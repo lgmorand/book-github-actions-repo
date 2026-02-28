@@ -1,0 +1,15 @@
+name: "jobs - exercice 3"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hello job2" > test.txt # écrit dans test.txt
+    
+  job2:
+   runs-on: ubuntu-latest
+   steps:
+   - run: cat test.xt # lit le contenu de test.txt et l'afiche dans la console
