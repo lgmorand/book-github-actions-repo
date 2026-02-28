@@ -9,7 +9,7 @@ jobs:
     steps:
     - run: |
         dayOfWeek=${date +%u} # calcule le jour de la semaine au format chiffre
-        if ($dayOfWeek > 5) 
+        if ($dayOfWeek > 6) 
         then 
           exit 1
         fi
