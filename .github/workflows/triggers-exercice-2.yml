@@ -1,0 +1,13 @@
+name: "triggers - exercice 2"
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+     - run: echo "je vérifie que le code compile bien"
