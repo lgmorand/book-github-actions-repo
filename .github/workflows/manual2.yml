@@ -1,4 +1,4 @@
-run-name: ce workflow va saluer ${{ inputs.name }} de la part de ${{ github.actor }}
+run-name: ce workflow va saluer ${{ inputs.name }} de la part de ${{ github.actor }} : ${{ inputs.message }}
 on:
   workflow_dispatch:
     inputs:
