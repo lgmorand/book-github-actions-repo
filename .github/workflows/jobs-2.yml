@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        dayOfWeek=${date +%u} # calcule le jour de la semaine au format chiffre
+        dayOfWeek=$(date +%u) # calcule le jour de la semaine au format chiffre
         if ($dayOfWeek > 7) 
         then 
           exit 1
