@@ -1,4 +1,4 @@
-name: "jobs - exercice 3"
+name: "jobs - exercice 3 - fix"
 
 on:
   workflow_dispatch:
