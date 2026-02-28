@@ -26,4 +26,4 @@ jobs:
     needs: job2
     if: always() # s'exécute toujours
     steps:
-    - run: "je m'exécute qui qu'il arrive"
+    - run: echo "je m'exécute qui qu'il arrive"
