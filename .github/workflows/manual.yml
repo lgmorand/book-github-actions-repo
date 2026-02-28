@@ -14,4 +14,4 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-     - run: echo "${{ github.even.inputs.myParam}} ${{ github.even.inputs.myParam2}}"
+     - run: echo "${{ github.event.inputs.myParam}} ${{ github.event.inputs.myParam2}}"
