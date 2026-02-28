@@ -10,6 +10,7 @@ on:
           - cschleiden
       message:
         required: true
+        type: string
       use-emoji: 
         type: boolean
         description: include emojis
