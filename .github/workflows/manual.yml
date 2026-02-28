@@ -1,0 +1,17 @@
+name: my fist manual workflow with params
+on:
+  workflow_dispatch:
+    inputs:
+      myParam:
+        description: 'my fist param'
+        required: true
+        default: 'hello'
+      myParam2:
+        description: 'my second param"
+        required: true
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+     - run: echo "${{ github.even.inputs.myParam}} ${{ github.even.inputs.myParam2}}"
