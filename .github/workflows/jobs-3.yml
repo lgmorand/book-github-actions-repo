@@ -10,6 +10,7 @@ jobs:
     - run: echo "hello job2" > test.txt # écrit dans test.txt
     
   job2:
-   runs-on: ubuntu-latest
-   steps:
-   - run: cat test.txt # lit le contenu de test.txt et l'afiche dans la console
+    needs: job1    
+    runs-on: ubuntu-latest
+    steps:
+    - run: cat test.txt # lit le contenu de test.txt et l'afiche dans la console
