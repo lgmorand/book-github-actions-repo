@@ -16,9 +16,9 @@ jobs:
     - name: use Node.js
       uses: action/setup-node@v4
 
-    - runs: npm install
+    - run: npm install
 
-    - runs: gulp build
+    - run: gulp build
 
     - uses: actions/upload-artifact@v4
       with:
