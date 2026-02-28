@@ -1,0 +1,23 @@
+run-name: ce workflow va saluer ${{ inputs.name }} de la part de ${{ github.actor }}
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        type: choice
+        description:  who to greet
+        options:
+          - monalisa
+          - cschleiden
+      message:
+        required: true
+      use-emoji: 
+        type: boolean
+        description: include emojis
+      environment:
+        type: environment
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+     - run: echo "${{ github.event.inputs.name }} ${{ github.actor }}"
